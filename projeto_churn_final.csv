@@ -1,0 +1,601 @@
+cliente_id,idade,genero,tempo_meses_plano,frequencia_semanal,tipo_plano,valor_mensal,reclamacoes_ult_3m,churn,fez_reclamacao,faixa_etaria,segmento_analise
+1,56,M,37,0.1,Trimestral,99.54,0,0,Não,Mais de 50,Perfil Estável
+2,46,F,5,5.2,Mensal,95.96,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+3,32,F,19,3.2,Mensal,234.64,0,0,Não,31 a 50 anos,Perfil Estável
+4,60,F,59,5.6,Mensal,193.76,1,0,Sim,Mais de 50,Risco por Insatisfação
+5,25,M,14,4.8,Mensal,220.98,0,1,Não,Até 30 anos,Perfil Estável
+6,38,M,26,6.0,Mensal,229.43,0,1,Não,31 a 50 anos,Perfil Estável
+7,56,F,4,2.1,Anual,177.2,0,0,Não,Mais de 50,Perfil Estável
+8,36,M,25,4.6,Trimestral,167.97,0,0,Não,31 a 50 anos,Perfil Estável
+9,40,F,45,2.4,Mensal,153.17,0,0,Não,31 a 50 anos,Perfil Estável
+10,28,M,42,2.9,Mensal,133.88,1,1,Sim,Até 30 anos,Risco por Insatisfação
+11,28,F,25,3.8,Mensal,153.88,2,0,Sim,Até 30 anos,Risco por Insatisfação
+12,41,F,18,5.2,Trimestral,211.56,1,0,Sim,31 a 50 anos,Perfil Estável
+13,53,M,40,5.9,Trimestral,182.33,1,0,Sim,Mais de 50,Perfil Estável
+14,57,F,8,4.6,Anual,231.73,0,0,Não,Mais de 50,Perfil Estável
+15,41,M,39,2.5,Mensal,155.37,3,0,Sim,31 a 50 anos,Risco por Insatisfação
+16,20,F,40,2.5,Anual,183.21,1,1,Sim,Até 30 anos,Perfil Estável
+17,39,F,14,4.4,Anual,187.32,0,0,Não,31 a 50 anos,Perfil Estável
+18,19,M,32,1.4,Mensal,180.59,0,0,Não,Até 30 anos,Perfil Estável
+19,41,M,51,0.7,Anual,199.45,1,1,Sim,31 a 50 anos,Perfil Estável
+20,61,M,38,2.1,Mensal,120.36,0,1,Não,Mais de 50,Perfil Estável
+21,47,F,33,1.7,Anual,167.1,1,0,Sim,31 a 50 anos,Perfil Estável
+22,55,M,23,1.8,Mensal,97.72,0,0,Não,Mais de 50,Perfil Estável
+23,19,F,15,1.4,Anual,145.37,0,0,Não,Até 30 anos,Perfil Estável
+24,38,F,33,0.3,Anual,162.9,1,1,Sim,31 a 50 anos,Perfil Estável
+25,50,M,25,0.1,Anual,190.88,0,0,Não,31 a 50 anos,Perfil Estável
+26,29,M,17,5.9,Trimestral,241.59,2,1,Sim,Até 30 anos,Perfil Estável
+27,39,F,33,2.6,Mensal,182.11,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+28,61,F,47,2.3,Mensal,206.41,1,0,Sim,Mais de 50,Risco por Insatisfação
+29,42,M,55,4.1,Mensal,166.07,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+30,44,M,2,1.3,Mensal,187.8,0,0,Não,31 a 50 anos,Perfil Estável
+31,59,M,14,5.7,Trimestral,92.06,0,0,Não,Mais de 50,Perfil Estável
+32,45,M,53,4.7,Mensal,123.25,0,0,Não,31 a 50 anos,Perfil Estável
+33,33,M,40,0.5,Anual,141.52,0,0,Não,31 a 50 anos,Perfil Estável
+34,32,F,40,2.5,Trimestral,160.32,1,1,Sim,31 a 50 anos,Perfil Estável
+35,64,F,51,5.3,Anual,87.76,0,0,Não,Mais de 50,Perfil Estável
+36,61,F,39,5.7,Mensal,103.8,0,0,Não,Mais de 50,Perfil Estável
+37,20,F,51,2.8,Anual,127.06,0,0,Não,Até 30 anos,Perfil Estável
+38,54,M,6,3.7,Anual,245.16,1,0,Sim,Mais de 50,Perfil Estável
+39,24,M,6,1.0,Mensal,136.33,0,0,Não,Até 30 anos,Perfil Estável
+40,38,M,3,5.9,Trimestral,161.95,0,0,Não,31 a 50 anos,Perfil Estável
+41,26,F,7,1.4,Trimestral,113.34,0,1,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+42,56,F,51,5.7,Mensal,183.83,0,0,Não,Mais de 50,Perfil Estável
+43,35,M,8,3.9,Trimestral,127.72,2,0,Sim,31 a 50 anos,Perfil Estável
+44,21,M,42,3.6,Mensal,115.19,1,0,Sim,Até 30 anos,Risco por Insatisfação
+45,42,F,52,3.1,Mensal,167.82,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+46,31,F,15,1.4,Mensal,80.94,0,0,Não,31 a 50 anos,Perfil Estável
+47,26,M,47,1.1,Mensal,81.3,0,1,Não,Até 30 anos,Perfil Estável
+48,43,M,29,1.3,Mensal,117.24,2,1,Sim,31 a 50 anos,Risco por Insatisfação
+49,19,F,33,1.1,Mensal,86.24,0,0,Não,Até 30 anos,Perfil Estável
+50,37,M,52,4.7,Anual,98.36,3,0,Sim,31 a 50 anos,Perfil Estável
+51,45,M,30,2.1,Trimestral,137.61,0,0,Não,31 a 50 anos,Perfil Estável
+52,64,M,39,0.3,Anual,216.44,1,0,Sim,Mais de 50,Perfil Estável
+53,24,F,27,5.8,Mensal,177.25,0,0,Não,Até 30 anos,Perfil Estável
+54,61,F,36,5.3,Mensal,167.15,0,0,Não,Mais de 50,Perfil Estável
+55,25,F,29,5.6,Trimestral,129.89,1,0,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+56,64,F,38,6.0,Mensal,238.4,1,0,Sim,Mais de 50,Risco por Insatisfação
+57,52,F,57,1.0,Mensal,147.49,1,0,Sim,Mais de 50,Risco por Insatisfação
+58,31,F,33,2.4,Trimestral,94.81,0,0,Não,31 a 50 anos,Perfil Estável
+59,34,F,37,4.5,Mensal,184.9,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+60,53,M,27,4.2,Trimestral,99.35,1,0,Sim,Mais de 50,Perfil Estável
+61,57,M,55,0.9,Trimestral,138.69,0,1,Não,Mais de 50,Perfil Estável
+62,21,M,33,4.9,Mensal,166.26,0,0,Não,Até 30 anos,Perfil Estável
+63,19,M,4,1.3,Mensal,228.62,0,0,Não,Até 30 anos,Perfil Estável
+64,23,M,22,1.3,Trimestral,163.9,0,0,Não,Até 30 anos,Perfil Estável
+65,59,M,2,3.2,Mensal,199.38,2,1,Sim,Mais de 50,Risco por Insatisfação
+66,21,M,10,3.6,Mensal,248.78,1,0,Sim,Até 30 anos,Risco por Insatisfação
+67,46,F,5,3.5,Anual,102.35,2,0,Sim,31 a 50 anos,Perfil Estável
+68,35,F,59,0.5,Mensal,126.7,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+69,43,M,10,5.3,Trimestral,147.08,1,0,Sim,31 a 50 anos,Perfil Estável
+70,61,M,33,1.6,Anual,151.71,0,1,Não,Mais de 50,Perfil Estável
+71,51,F,54,0.8,Mensal,149.87,0,0,Não,Mais de 50,Perfil Estável
+72,27,M,38,5.3,Mensal,234.29,3,1,Sim,Até 30 anos,Risco por Insatisfação
+73,53,M,13,5.7,Mensal,201.39,1,1,Sim,Mais de 50,Risco por Insatisfação
+74,31,F,31,5.2,Mensal,183.34,0,1,Não,31 a 50 anos,Perfil Estável
+75,48,M,47,4.9,Mensal,132.59,0,0,Não,31 a 50 anos,Perfil Estável
+76,32,F,36,3.9,Trimestral,220.04,0,0,Não,31 a 50 anos,Perfil Estável
+77,25,M,45,3.3,Mensal,242.36,2,0,Sim,Até 30 anos,Risco por Insatisfação
+78,31,F,24,0.5,Trimestral,219.6,0,0,Não,31 a 50 anos,Perfil Estável
+79,40,F,52,2.5,Anual,80.27,1,0,Sim,31 a 50 anos,Perfil Estável
+80,57,F,56,2.2,Anual,188.19,2,0,Sim,Mais de 50,Perfil Estável
+81,38,M,15,1.6,Trimestral,88.69,0,0,Não,31 a 50 anos,Perfil Estável
+82,33,F,29,4.3,Mensal,123.79,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+83,62,M,8,3.0,Trimestral,90.12,1,1,Sim,Mais de 50,Perfil Estável
+84,35,M,5,0.5,Trimestral,182.65,0,0,Não,31 a 50 anos,Perfil Estável
+85,64,M,29,1.3,Mensal,196.72,2,1,Sim,Mais de 50,Risco por Insatisfação
+86,41,M,47,4.1,Mensal,99.46,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+87,43,F,4,0.5,Anual,145.25,0,1,Não,31 a 50 anos,Perfil Estável
+88,42,F,12,5.1,Mensal,157.56,0,0,Não,31 a 50 anos,Perfil Estável
+89,62,M,45,3.0,Mensal,142.74,1,0,Sim,Mais de 50,Risco por Insatisfação
+90,58,M,2,2.9,Mensal,100.57,0,1,Não,Mais de 50,Perfil Estável
+91,46,F,27,3.6,Mensal,151.22,0,0,Não,31 a 50 anos,Perfil Estável
+92,32,M,31,4.9,Anual,207.7,2,1,Sim,31 a 50 anos,Perfil Estável
+93,62,F,51,2.1,Trimestral,92.07,0,0,Não,Mais de 50,Perfil Estável
+94,18,M,51,4.1,Trimestral,93.63,1,0,Sim,Até 30 anos,Perfil Estável
+95,42,M,36,3.4,Mensal,140.31,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+96,24,F,36,1.6,Mensal,240.09,1,0,Sim,Até 30 anos,Risco por Insatisfação
+97,26,M,26,5.3,Mensal,193.66,1,0,Sim,Até 30 anos,Risco por Insatisfação
+98,41,F,43,4.8,Mensal,195.37,0,0,Não,31 a 50 anos,Perfil Estável
+99,18,M,27,4.0,Mensal,141.53,0,0,Não,Até 30 anos,Perfil Estável
+100,61,M,5,5.1,Trimestral,180.92,1,0,Sim,Mais de 50,Perfil Estável
+101,25,M,20,5.2,Mensal,81.72,1,1,Sim,Até 30 anos,Risco por Insatisfação
+102,41,F,11,4.3,Trimestral,188.14,0,1,Não,31 a 50 anos,Perfil Estável
+103,28,M,10,5.0,Mensal,235.26,1,0,Sim,Até 30 anos,Risco por Insatisfação
+104,34,M,40,4.2,Mensal,184.14,0,0,Não,31 a 50 anos,Perfil Estável
+105,25,M,38,4.1,Mensal,228.53,1,0,Sim,Até 30 anos,Risco por Insatisfação
+106,52,M,6,3.7,Anual,203.08,0,0,Não,Mais de 50,Perfil Estável
+107,52,F,8,4.5,Anual,100.49,0,1,Não,Mais de 50,Perfil Estável
+108,50,F,23,1.0,Anual,233.42,2,1,Sim,31 a 50 anos,Perfil Estável
+109,22,M,47,5.3,Mensal,91.3,1,0,Sim,Até 30 anos,Risco por Insatisfação
+110,59,F,26,5.2,Mensal,170.77,0,1,Não,Mais de 50,Perfil Estável
+111,56,M,46,0.2,Trimestral,104.16,1,0,Sim,Mais de 50,Perfil Estável
+112,58,M,43,5.0,Mensal,81.99,0,1,Não,Mais de 50,Perfil Estável
+113,45,M,12,0.8,Anual,151.75,0,0,Não,31 a 50 anos,Perfil Estável
+114,24,F,26,2.0,Mensal,130.16,0,0,Não,Até 30 anos,Perfil Estável
+115,26,F,13,4.5,Mensal,162.62,1,0,Sim,Até 30 anos,Risco por Insatisfação
+116,25,F,40,1.0,Mensal,178.12,0,0,Não,Até 30 anos,Perfil Estável
+117,29,F,18,4.9,Mensal,87.44,0,0,Não,Até 30 anos,Perfil Estável
+118,51,F,25,5.0,Trimestral,100.91,1,1,Sim,Mais de 50,Perfil Estável
+119,50,F,33,3.0,Mensal,174.97,0,0,Não,31 a 50 anos,Perfil Estável
+120,40,F,47,0.0,Mensal,138.34,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+121,41,F,40,1.7,Mensal,203.96,0,0,Não,31 a 50 anos,Perfil Estável
+122,54,F,43,3.7,Mensal,190.89,0,0,Não,Mais de 50,Perfil Estável
+123,52,M,12,5.9,Trimestral,223.75,0,0,Não,Mais de 50,Perfil Estável
+124,61,F,44,3.8,Anual,197.72,0,0,Não,Mais de 50,Perfil Estável
+125,57,F,36,1.6,Anual,153.09,0,0,Não,Mais de 50,Perfil Estável
+126,39,F,48,3.8,Trimestral,194.4,0,0,Não,31 a 50 anos,Perfil Estável
+127,44,F,4,3.2,Mensal,126.81,0,0,Não,31 a 50 anos,Perfil Estável
+128,52,F,5,4.7,Trimestral,132.07,0,0,Não,Mais de 50,Perfil Estável
+129,18,F,56,0.6,Mensal,214.13,2,1,Sim,Até 30 anos,Risco por Insatisfação
+130,52,F,37,4.6,Mensal,155.89,0,0,Não,Mais de 50,Perfil Estável
+131,54,F,8,3.2,Anual,215.72,0,0,Não,Mais de 50,Perfil Estável
+132,64,F,42,5.8,Mensal,219.81,1,0,Sim,Mais de 50,Risco por Insatisfação
+133,31,F,49,2.1,Anual,225.79,0,0,Não,31 a 50 anos,Perfil Estável
+134,20,F,28,3.8,Mensal,235.83,1,0,Sim,Até 30 anos,Risco por Insatisfação
+135,18,M,31,5.6,Trimestral,153.27,1,0,Sim,Até 30 anos,Perfil Estável
+136,22,M,58,0.6,Trimestral,134.21,0,0,Não,Até 30 anos,Perfil Estável
+137,43,F,9,5.6,Anual,178.97,1,0,Sim,31 a 50 anos,Perfil Estável
+138,31,F,54,4.1,Trimestral,143.1,1,0,Sim,31 a 50 anos,Perfil Estável
+139,56,M,51,0.4,Trimestral,182.18,1,1,Sim,Mais de 50,Perfil Estável
+140,44,F,29,1.8,Mensal,199.95,0,1,Não,31 a 50 anos,Perfil Estável
+141,26,M,14,4.2,Trimestral,197.03,1,0,Sim,Até 30 anos,Perfil Estável
+142,32,M,40,0.4,Mensal,143.67,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+143,32,M,41,3.5,Trimestral,108.37,0,1,Não,31 a 50 anos,Perfil Estável
+144,43,M,22,2.1,Trimestral,153.19,3,1,Sim,31 a 50 anos,Perfil Estável
+145,59,M,11,3.7,Trimestral,104.24,1,0,Sim,Mais de 50,Perfil Estável
+146,30,F,23,0.3,Mensal,231.32,1,0,Sim,Até 30 anos,Risco por Insatisfação
+147,49,M,1,5.2,Mensal,138.8,0,0,Não,31 a 50 anos,Perfil Estável
+148,56,F,46,5.8,Trimestral,106.26,1,0,Sim,Mais de 50,Perfil Estável
+149,49,F,37,5.8,Mensal,84.33,0,0,Não,31 a 50 anos,Perfil Estável
+150,21,M,21,4.5,Mensal,189.79,1,0,Sim,Até 30 anos,Risco por Insatisfação
+151,47,M,26,0.8,Mensal,188.27,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+152,54,F,46,4.5,Anual,137.9,2,0,Sim,Mais de 50,Perfil Estável
+153,40,M,36,0.1,Trimestral,92.19,0,1,Não,31 a 50 anos,Perfil Estável
+154,56,M,54,0.1,Mensal,149.64,0,0,Não,Mais de 50,Perfil Estável
+155,62,F,23,1.9,Mensal,132.91,0,0,Não,Mais de 50,Perfil Estável
+156,32,F,57,2.9,Mensal,195.11,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+157,60,M,1,4.6,Trimestral,182.98,0,0,Não,Mais de 50,Perfil Estável
+158,46,F,54,4.1,Trimestral,141.98,0,1,Não,31 a 50 anos,Perfil Estável
+159,53,M,55,2.7,Mensal,117.04,1,0,Sim,Mais de 50,Risco por Insatisfação
+160,30,M,51,1.6,Mensal,247.97,1,0,Sim,Até 30 anos,Risco por Insatisfação
+161,49,M,40,6.0,Mensal,157.18,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+162,24,F,15,2.6,Trimestral,197.01,1,0,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+163,39,F,21,2.7,Trimestral,103.89,0,1,Não,31 a 50 anos,Perfil Estável
+164,45,F,47,1.0,Mensal,162.55,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+165,19,F,9,4.8,Mensal,84.68,0,0,Não,Até 30 anos,Perfil Estável
+166,59,F,53,4.2,Mensal,165.93,0,0,Não,Mais de 50,Perfil Estável
+167,62,M,9,1.3,Anual,243.88,0,0,Não,Mais de 50,Perfil Estável
+168,23,M,10,0.5,Mensal,145.32,0,1,Não,Até 30 anos,Perfil Estável
+169,45,M,52,4.1,Trimestral,86.63,0,1,Não,31 a 50 anos,Perfil Estável
+170,45,M,57,3.9,Trimestral,85.26,0,0,Não,31 a 50 anos,Perfil Estável
+171,61,F,53,1.6,Mensal,145.96,1,0,Sim,Mais de 50,Risco por Insatisfação
+172,61,M,26,5.7,Mensal,107.2,1,1,Sim,Mais de 50,Risco por Insatisfação
+173,37,F,41,0.9,Mensal,83.97,3,1,Sim,31 a 50 anos,Risco por Insatisfação
+174,47,M,35,2.6,Trimestral,208.56,1,0,Sim,31 a 50 anos,Perfil Estável
+175,28,F,52,5.7,Trimestral,157.95,0,0,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+176,45,F,25,2.5,Trimestral,129.17,1,0,Sim,31 a 50 anos,Perfil Estável
+177,42,M,26,3.8,Trimestral,233.01,1,1,Sim,31 a 50 anos,Perfil Estável
+178,56,M,11,2.4,Mensal,99.74,0,0,Não,Mais de 50,Perfil Estável
+179,50,M,38,1.6,Anual,242.51,0,0,Não,31 a 50 anos,Perfil Estável
+180,18,M,2,5.9,Trimestral,133.37,1,0,Sim,Até 30 anos,Perfil Estável
+181,44,F,7,2.5,Mensal,231.03,0,0,Não,31 a 50 anos,Perfil Estável
+182,30,M,18,5.4,Anual,182.5,0,0,Não,Até 30 anos,Perfil Estável
+183,58,M,27,1.4,Trimestral,220.54,0,0,Não,Mais de 50,Perfil Estável
+184,20,F,34,1.3,Trimestral,247.28,2,0,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+185,56,M,27,0.2,Trimestral,129.03,0,0,Não,Mais de 50,Perfil Estável
+186,23,M,17,3.9,Anual,243.39,1,0,Sim,Até 30 anos,Perfil Estável
+187,25,M,43,2.2,Trimestral,146.21,1,0,Sim,Até 30 anos,Perfil Estável
+188,44,M,59,5.2,Mensal,145.54,0,0,Não,31 a 50 anos,Perfil Estável
+189,26,M,44,2.8,Mensal,137.87,2,1,Sim,Até 30 anos,Risco por Insatisfação
+190,54,F,59,5.8,Anual,172.04,1,0,Sim,Mais de 50,Perfil Estável
+191,50,M,51,1.1,Mensal,106.2,0,0,Não,31 a 50 anos,Perfil Estável
+192,59,M,54,5.2,Mensal,174.13,0,0,Não,Mais de 50,Perfil Estável
+193,61,M,24,4.7,Mensal,172.09,0,0,Não,Mais de 50,Perfil Estável
+194,41,M,25,4.6,Mensal,209.52,0,0,Não,31 a 50 anos,Perfil Estável
+195,32,M,7,5.1,Trimestral,221.72,0,0,Não,31 a 50 anos,Perfil Estável
+196,49,F,52,4.6,Anual,154.88,0,0,Não,31 a 50 anos,Perfil Estável
+197,49,M,6,3.8,Mensal,131.4,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+198,41,F,53,0.8,Mensal,124.09,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+199,58,F,24,0.2,Mensal,113.09,1,0,Sim,Mais de 50,Risco por Insatisfação
+200,29,M,33,5.5,Anual,89.8,0,0,Não,Até 30 anos,Perfil Estável
+201,56,M,49,3.7,Trimestral,138.22,0,0,Não,Mais de 50,Perfil Estável
+202,19,M,29,4.8,Mensal,125.94,0,0,Não,Até 30 anos,Perfil Estável
+203,20,M,43,2.9,Anual,244.29,0,0,Não,Até 30 anos,Perfil Estável
+204,54,F,22,0.7,Anual,174.81,2,1,Sim,Mais de 50,Perfil Estável
+205,34,M,26,0.8,Anual,139.04,1,1,Sim,31 a 50 anos,Perfil Estável
+206,19,M,28,4.1,Anual,178.68,0,0,Não,Até 30 anos,Perfil Estável
+207,19,M,50,2.6,Mensal,103.66,0,0,Não,Até 30 anos,Perfil Estável
+208,45,M,21,1.2,Trimestral,155.49,0,0,Não,31 a 50 anos,Perfil Estável
+209,40,M,49,2.9,Mensal,186.46,0,0,Não,31 a 50 anos,Perfil Estável
+210,54,M,7,0.4,Anual,163.11,0,0,Não,Mais de 50,Perfil Estável
+211,49,F,17,3.5,Trimestral,148.3,0,1,Não,31 a 50 anos,Perfil Estável
+212,50,F,20,1.6,Trimestral,248.95,0,0,Não,31 a 50 anos,Perfil Estável
+213,18,M,41,4.8,Trimestral,229.65,2,1,Sim,Até 30 anos,Perfil Estável
+214,36,M,49,1.9,Mensal,185.98,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+215,19,M,20,2.7,Trimestral,176.79,0,0,Não,Até 30 anos,Perfil Estável
+216,61,F,54,0.1,Anual,185.51,0,0,Não,Mais de 50,Perfil Estável
+217,43,M,22,0.4,Anual,114.22,2,0,Sim,31 a 50 anos,Perfil Estável
+218,49,F,28,2.4,Mensal,147.17,0,0,Não,31 a 50 anos,Perfil Estável
+219,23,M,40,2.9,Mensal,86.71,1,0,Sim,Até 30 anos,Risco por Insatisfação
+220,49,M,49,3.6,Mensal,160.84,0,0,Não,31 a 50 anos,Perfil Estável
+221,21,M,7,1.7,Trimestral,172.31,2,1,Sim,Até 30 anos,Perfil Estável
+222,28,M,1,4.2,Anual,118.72,2,0,Sim,Até 30 anos,Perfil Estável
+223,34,F,32,5.2,Mensal,243.88,1,1,Sim,31 a 50 anos,Risco por Insatisfação
+224,55,F,13,4.7,Trimestral,234.61,1,1,Sim,Mais de 50,Perfil Estável
+225,41,M,30,0.2,Anual,202.76,1,1,Sim,31 a 50 anos,Perfil Estável
+226,22,M,23,2.9,Trimestral,170.68,0,0,Não,Até 30 anos,Perfil Estável
+227,51,F,51,0.6,Trimestral,227.89,0,0,Não,Mais de 50,Perfil Estável
+228,23,F,59,1.5,Trimestral,102.21,0,1,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+229,39,F,56,5.9,Trimestral,214.39,1,0,Sim,31 a 50 anos,Perfil Estável
+230,28,F,19,0.9,Mensal,101.22,0,0,Não,Até 30 anos,Perfil Estável
+231,33,M,32,3.0,Trimestral,215.02,0,0,Não,31 a 50 anos,Perfil Estável
+232,50,F,30,3.7,Trimestral,126.88,0,0,Não,31 a 50 anos,Perfil Estável
+233,26,M,29,4.2,Anual,229.11,0,0,Não,Até 30 anos,Perfil Estável
+234,23,F,49,3.4,Trimestral,240.49,0,0,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+235,33,F,45,0.1,Trimestral,105.3,1,0,Sim,31 a 50 anos,Perfil Estável
+236,46,F,29,2.0,Mensal,158.65,0,1,Não,31 a 50 anos,Perfil Estável
+237,20,F,30,3.1,Mensal,246.77,0,0,Não,Até 30 anos,Perfil Estável
+238,37,F,16,0.5,Mensal,162.18,0,1,Não,31 a 50 anos,Perfil Estável
+239,53,M,40,2.1,Mensal,226.8,0,0,Não,Mais de 50,Perfil Estável
+240,36,M,19,0.2,Trimestral,180.08,1,1,Sim,31 a 50 anos,Perfil Estável
+241,43,F,18,0.5,Anual,143.81,0,0,Não,31 a 50 anos,Perfil Estável
+242,20,F,1,2.4,Mensal,128.58,0,0,Não,Até 30 anos,Perfil Estável
+243,36,M,14,0.8,Mensal,114.55,0,0,Não,31 a 50 anos,Perfil Estável
+244,37,F,51,3.4,Anual,209.51,0,1,Não,31 a 50 anos,Perfil Estável
+245,49,F,47,4.1,Mensal,145.71,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+246,24,M,50,4.8,Trimestral,166.92,0,1,Não,Até 30 anos,Perfil Estável
+247,58,F,2,1.2,Trimestral,163.7,0,1,Não,Mais de 50,Perfil Estável
+248,50,F,54,1.0,Trimestral,178.14,0,0,Não,31 a 50 anos,Perfil Estável
+249,57,M,28,0.6,Mensal,227.15,1,0,Sim,Mais de 50,Risco por Insatisfação
+250,56,M,49,3.8,Mensal,246.73,0,0,Não,Mais de 50,Perfil Estável
+251,35,M,50,4.2,Trimestral,149.29,0,0,Não,31 a 50 anos,Perfil Estável
+252,57,F,30,0.2,Trimestral,220.68,0,1,Não,Mais de 50,Perfil Estável
+253,18,M,38,5.6,Mensal,209.97,2,0,Sim,Até 30 anos,Risco por Insatisfação
+254,28,M,51,0.3,Trimestral,177.5,0,0,Não,Até 30 anos,Perfil Estável
+255,45,M,4,3.2,Mensal,242.53,1,1,Sim,31 a 50 anos,Risco por Insatisfação
+256,42,M,1,4.3,Trimestral,114.08,0,0,Não,31 a 50 anos,Perfil Estável
+257,40,M,8,5.2,Mensal,98.57,0,1,Não,31 a 50 anos,Perfil Estável
+258,48,M,29,4.3,Anual,225.17,1,0,Sim,31 a 50 anos,Perfil Estável
+259,47,F,55,4.8,Mensal,154.66,0,0,Não,31 a 50 anos,Perfil Estável
+260,59,F,39,2.0,Mensal,223.98,1,0,Sim,Mais de 50,Risco por Insatisfação
+261,52,M,3,4.9,Mensal,231.83,0,0,Não,Mais de 50,Perfil Estável
+262,24,M,32,0.5,Mensal,90.62,0,0,Não,Até 30 anos,Perfil Estável
+263,33,M,10,5.4,Anual,230.19,0,0,Não,31 a 50 anos,Perfil Estável
+264,43,F,10,3.3,Anual,156.21,1,0,Sim,31 a 50 anos,Perfil Estável
+265,19,F,19,4.9,Mensal,166.77,0,0,Não,Até 30 anos,Perfil Estável
+266,18,F,46,2.7,Mensal,186.52,1,0,Sim,Até 30 anos,Risco por Insatisfação
+267,29,F,34,3.9,Trimestral,237.49,1,0,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+268,22,F,33,3.2,Anual,83.25,0,0,Não,Até 30 anos,Perfil Estável
+269,54,F,23,4.4,Trimestral,161.06,1,0,Sim,Mais de 50,Perfil Estável
+270,49,F,55,0.5,Mensal,196.91,3,0,Sim,31 a 50 anos,Risco por Insatisfação
+271,26,F,28,0.4,Mensal,202.86,0,0,Não,Até 30 anos,Perfil Estável
+272,58,F,32,1.5,Trimestral,197.73,1,0,Sim,Mais de 50,Perfil Estável
+273,52,M,50,1.0,Mensal,102.85,0,0,Não,Mais de 50,Perfil Estável
+274,36,M,7,5.2,Trimestral,130.9,2,0,Sim,31 a 50 anos,Perfil Estável
+275,33,M,29,1.3,Mensal,140.98,0,0,Não,31 a 50 anos,Perfil Estável
+276,20,M,8,5.9,Trimestral,216.75,0,1,Não,Até 30 anos,Perfil Estável
+277,37,F,1,2.0,Mensal,127.39,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+278,41,F,57,1.1,Trimestral,115.82,0,0,Não,31 a 50 anos,Perfil Estável
+279,50,M,55,4.7,Mensal,242.77,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+280,41,F,3,4.0,Trimestral,81.51,0,0,Não,31 a 50 anos,Perfil Estável
+281,28,M,24,3.0,Mensal,249.63,1,1,Sim,Até 30 anos,Risco por Insatisfação
+282,25,F,23,3.3,Trimestral,195.06,1,0,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+283,53,M,59,4.3,Trimestral,220.84,0,0,Não,Mais de 50,Perfil Estável
+284,55,F,8,1.4,Trimestral,130.09,1,0,Sim,Mais de 50,Perfil Estável
+285,57,F,54,6.0,Trimestral,82.43,2,0,Sim,Mais de 50,Perfil Estável
+286,37,M,57,5.8,Trimestral,205.44,0,0,Não,31 a 50 anos,Perfil Estável
+287,52,F,47,3.9,Anual,221.8,0,0,Não,Mais de 50,Perfil Estável
+288,42,M,37,1.2,Mensal,205.88,0,0,Não,31 a 50 anos,Perfil Estável
+289,52,M,3,4.1,Anual,104.28,0,0,Não,Mais de 50,Perfil Estável
+290,42,M,51,0.4,Mensal,208.08,0,0,Não,31 a 50 anos,Perfil Estável
+291,46,M,33,0.2,Mensal,210.72,0,0,Não,31 a 50 anos,Perfil Estável
+292,35,F,28,1.5,Mensal,191.95,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+293,63,F,47,2.8,Mensal,210.24,1,0,Sim,Mais de 50,Risco por Insatisfação
+294,35,F,8,5.2,Trimestral,223.81,0,1,Não,31 a 50 anos,Perfil Estável
+295,19,M,34,4.4,Trimestral,184.31,1,0,Sim,Até 30 anos,Perfil Estável
+296,52,F,35,4.5,Trimestral,95.06,0,1,Não,Mais de 50,Perfil Estável
+297,33,M,32,2.6,Trimestral,162.9,2,0,Sim,31 a 50 anos,Perfil Estável
+298,58,F,24,2.1,Mensal,93.2,0,0,Não,Mais de 50,Perfil Estável
+299,53,F,14,2.2,Mensal,149.28,1,0,Sim,Mais de 50,Risco por Insatisfação
+300,50,F,32,5.9,Mensal,149.21,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+301,21,M,56,0.2,Mensal,91.22,0,0,Não,Até 30 anos,Perfil Estável
+302,50,F,46,5.2,Mensal,139.3,0,0,Não,31 a 50 anos,Perfil Estável
+303,31,F,43,3.5,Mensal,98.87,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+304,38,M,16,2.6,Trimestral,217.4,1,1,Sim,31 a 50 anos,Perfil Estável
+305,37,F,4,4.4,Trimestral,241.11,0,0,Não,31 a 50 anos,Perfil Estável
+306,25,M,52,2.9,Anual,92.29,3,0,Sim,Até 30 anos,Perfil Estável
+307,24,F,37,5.2,Anual,242.37,1,0,Sim,Até 30 anos,Perfil Estável
+308,20,M,54,5.4,Trimestral,168.84,1,0,Sim,Até 30 anos,Perfil Estável
+309,34,M,21,2.5,Mensal,130.93,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+310,50,F,14,1.7,Trimestral,93.07,0,0,Não,31 a 50 anos,Perfil Estável
+311,29,M,31,3.6,Trimestral,165.11,1,1,Sim,Até 30 anos,Perfil Estável
+312,39,M,55,5.5,Mensal,215.07,0,1,Não,31 a 50 anos,Perfil Estável
+313,39,M,48,1.3,Mensal,200.2,0,0,Não,31 a 50 anos,Perfil Estável
+314,63,M,18,3.7,Anual,88.54,0,0,Não,Mais de 50,Perfil Estável
+315,47,M,7,3.8,Mensal,92.39,0,1,Não,31 a 50 anos,Perfil Estável
+316,55,M,10,4.4,Trimestral,148.49,0,0,Não,Mais de 50,Perfil Estável
+317,55,F,7,0.8,Trimestral,130.2,1,0,Sim,Mais de 50,Perfil Estável
+318,62,M,33,4.3,Mensal,119.51,0,0,Não,Mais de 50,Perfil Estável
+319,25,M,23,5.5,Mensal,127.77,0,0,Não,Até 30 anos,Perfil Estável
+320,44,F,21,1.1,Mensal,216.59,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+321,44,F,19,1.4,Mensal,237.97,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+322,51,F,48,5.8,Mensal,148.87,1,0,Sim,Mais de 50,Risco por Insatisfação
+323,38,F,19,1.1,Anual,234.04,1,0,Sim,31 a 50 anos,Perfil Estável
+324,47,F,36,5.1,Mensal,134.65,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+325,50,F,29,3.0,Trimestral,160.99,0,0,Não,31 a 50 anos,Perfil Estável
+326,45,F,18,1.5,Mensal,118.42,0,0,Não,31 a 50 anos,Perfil Estável
+327,64,M,2,5.2,Anual,188.88,1,0,Sim,Mais de 50,Perfil Estável
+328,50,M,1,2.7,Mensal,246.43,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+329,22,F,47,3.1,Mensal,182.59,1,0,Sim,Até 30 anos,Risco por Insatisfação
+330,36,M,5,2.2,Anual,140.83,2,0,Sim,31 a 50 anos,Perfil Estável
+331,21,M,20,3.6,Anual,190.13,0,1,Não,Até 30 anos,Perfil Estável
+332,52,M,11,1.0,Mensal,100.9,1,1,Sim,Mais de 50,Risco por Insatisfação
+333,34,F,42,2.3,Anual,231.07,0,0,Não,31 a 50 anos,Perfil Estável
+334,61,F,2,5.8,Mensal,165.52,0,0,Não,Mais de 50,Perfil Estável
+335,45,M,3,1.5,Mensal,156.39,0,0,Não,31 a 50 anos,Perfil Estável
+336,47,F,23,3.9,Mensal,179.6,0,0,Não,31 a 50 anos,Perfil Estável
+337,46,M,55,2.0,Mensal,186.21,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+338,63,M,12,4.6,Trimestral,92.2,1,0,Sim,Mais de 50,Perfil Estável
+339,23,M,20,0.8,Mensal,196.04,1,0,Sim,Até 30 anos,Risco por Insatisfação
+340,52,M,5,5.8,Mensal,121.13,2,0,Sim,Mais de 50,Risco por Insatisfação
+341,58,F,37,2.7,Trimestral,201.37,4,0,Sim,Mais de 50,Perfil Estável
+342,54,F,38,1.4,Trimestral,219.83,1,0,Sim,Mais de 50,Perfil Estável
+343,41,F,30,0.4,Mensal,216.67,0,0,Não,31 a 50 anos,Perfil Estável
+344,46,M,9,1.0,Trimestral,173.93,1,0,Sim,31 a 50 anos,Perfil Estável
+345,63,F,34,3.1,Mensal,168.43,2,1,Sim,Mais de 50,Risco por Insatisfação
+346,48,M,53,2.0,Trimestral,104.29,1,1,Sim,31 a 50 anos,Perfil Estável
+347,52,F,44,5.0,Trimestral,211.81,0,0,Não,Mais de 50,Perfil Estável
+348,50,M,35,2.6,Anual,126.14,0,0,Não,31 a 50 anos,Perfil Estável
+349,38,M,52,1.5,Mensal,164.44,0,0,Não,31 a 50 anos,Perfil Estável
+350,49,M,58,3.7,Mensal,128.33,0,0,Não,31 a 50 anos,Perfil Estável
+351,40,F,22,4.2,Mensal,102.75,0,0,Não,31 a 50 anos,Perfil Estável
+352,50,F,44,1.0,Mensal,187.02,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+353,20,F,24,1.0,Mensal,89.24,0,0,Não,Até 30 anos,Perfil Estável
+354,35,F,17,0.2,Anual,207.27,1,0,Sim,31 a 50 anos,Perfil Estável
+355,42,M,10,4.4,Mensal,133.99,0,0,Não,31 a 50 anos,Perfil Estável
+356,59,F,30,4.0,Mensal,80.02,1,0,Sim,Mais de 50,Risco por Insatisfação
+357,48,F,56,2.8,Trimestral,166.89,1,0,Sim,31 a 50 anos,Perfil Estável
+358,20,M,59,5.1,Mensal,87.96,1,0,Sim,Até 30 anos,Risco por Insatisfação
+359,57,M,46,4.8,Trimestral,126.95,1,1,Sim,Mais de 50,Perfil Estável
+360,63,M,23,3.5,Mensal,200.19,1,0,Sim,Mais de 50,Risco por Insatisfação
+361,41,F,32,5.2,Mensal,90.66,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+362,49,M,17,1.2,Mensal,222.69,0,1,Não,31 a 50 anos,Perfil Estável
+363,64,M,50,0.7,Mensal,80.65,1,1,Sim,Mais de 50,Risco por Insatisfação
+364,39,M,51,1.6,Anual,121.96,0,0,Não,31 a 50 anos,Perfil Estável
+365,40,F,17,0.3,Mensal,205.95,2,1,Sim,31 a 50 anos,Risco por Insatisfação
+366,19,M,14,3.2,Trimestral,133.77,0,0,Não,Até 30 anos,Perfil Estável
+367,44,F,9,5.6,Mensal,97.32,0,0,Não,31 a 50 anos,Perfil Estável
+368,59,F,40,0.2,Mensal,141.24,0,0,Não,Mais de 50,Perfil Estável
+369,19,M,2,0.7,Anual,125.97,3,0,Sim,Até 30 anos,Perfil Estável
+370,43,M,45,2.7,Mensal,223.26,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+371,34,F,25,5.6,Trimestral,133.27,0,0,Não,31 a 50 anos,Perfil Estável
+372,57,M,39,1.9,Anual,214.12,0,0,Não,Mais de 50,Perfil Estável
+373,50,M,9,3.0,Trimestral,231.62,1,0,Sim,31 a 50 anos,Perfil Estável
+374,26,F,54,0.2,Anual,153.75,0,0,Não,Até 30 anos,Perfil Estável
+375,60,F,22,0.9,Mensal,234.69,1,0,Sim,Mais de 50,Risco por Insatisfação
+376,56,M,43,5.9,Mensal,144.14,0,0,Não,Mais de 50,Perfil Estável
+377,46,F,46,5.8,Mensal,243.89,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+378,59,M,4,0.0,Trimestral,95.18,1,0,Sim,Mais de 50,Perfil Estável
+379,43,M,26,5.7,Anual,196.79,0,1,Não,31 a 50 anos,Perfil Estável
+380,52,M,58,3.8,Mensal,163.95,1,0,Sim,Mais de 50,Risco por Insatisfação
+381,42,F,29,5.2,Trimestral,145.9,0,0,Não,31 a 50 anos,Perfil Estável
+382,41,M,45,2.7,Mensal,187.56,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+383,30,M,34,3.1,Trimestral,199.66,2,0,Sim,Até 30 anos,Perfil Estável
+384,24,M,23,2.9,Mensal,80.74,0,0,Não,Até 30 anos,Perfil Estável
+385,53,F,37,4.0,Anual,108.38,1,0,Sim,Mais de 50,Perfil Estável
+386,62,F,11,0.8,Trimestral,201.22,2,0,Sim,Mais de 50,Perfil Estável
+387,37,F,6,0.2,Mensal,193.29,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+388,18,F,18,1.8,Mensal,244.23,0,1,Não,Até 30 anos,Perfil Estável
+389,25,F,21,4.2,Mensal,209.38,0,0,Não,Até 30 anos,Perfil Estável
+390,63,M,42,1.2,Mensal,241.63,0,0,Não,Mais de 50,Perfil Estável
+391,33,F,36,4.0,Mensal,199.43,1,1,Sim,31 a 50 anos,Risco por Insatisfação
+392,31,F,41,5.8,Anual,130.67,1,0,Sim,31 a 50 anos,Perfil Estável
+393,29,F,38,0.6,Trimestral,97.91,1,0,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+394,40,M,34,4.0,Trimestral,212.91,0,0,Não,31 a 50 anos,Perfil Estável
+395,32,F,17,2.7,Mensal,189.51,0,0,Não,31 a 50 anos,Perfil Estável
+396,45,F,37,5.2,Anual,88.19,0,0,Não,31 a 50 anos,Perfil Estável
+397,51,M,25,1.1,Trimestral,141.21,0,0,Não,Mais de 50,Perfil Estável
+398,19,F,38,4.2,Mensal,242.66,1,0,Sim,Até 30 anos,Risco por Insatisfação
+399,49,M,58,5.0,Trimestral,165.07,2,0,Sim,31 a 50 anos,Perfil Estável
+400,40,M,12,5.7,Trimestral,153.56,2,0,Sim,31 a 50 anos,Perfil Estável
+401,39,M,23,4.1,Mensal,157.81,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+402,42,M,53,3.0,Mensal,115.51,2,0,Sim,31 a 50 anos,Risco por Insatisfação
+403,39,M,42,3.7,Mensal,142.68,2,1,Sim,31 a 50 anos,Risco por Insatisfação
+404,39,F,22,5.2,Mensal,142.87,0,0,Não,31 a 50 anos,Perfil Estável
+405,59,M,21,3.4,Anual,88.9,1,0,Sim,Mais de 50,Perfil Estável
+406,23,M,27,0.2,Anual,210.49,0,0,Não,Até 30 anos,Perfil Estável
+407,32,F,57,5.6,Trimestral,150.81,0,0,Não,31 a 50 anos,Perfil Estável
+408,60,M,31,4.1,Mensal,219.77,4,0,Sim,Mais de 50,Risco por Insatisfação
+409,54,F,6,4.1,Mensal,224.56,0,0,Não,Mais de 50,Perfil Estável
+410,50,F,27,1.3,Trimestral,116.04,0,1,Não,31 a 50 anos,Perfil Estável
+411,25,F,40,4.0,Trimestral,191.75,0,1,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+412,61,M,34,2.4,Mensal,160.29,0,0,Não,Mais de 50,Perfil Estável
+413,61,M,12,3.9,Trimestral,229.63,0,0,Não,Mais de 50,Perfil Estável
+414,22,M,45,0.6,Anual,116.68,0,0,Não,Até 30 anos,Perfil Estável
+415,56,F,57,3.9,Mensal,195.23,0,0,Não,Mais de 50,Perfil Estável
+416,21,M,53,6.0,Mensal,183.32,0,0,Não,Até 30 anos,Perfil Estável
+417,23,M,7,0.3,Trimestral,130.2,0,0,Não,Até 30 anos,Perfil Estável
+418,62,M,10,5.9,Mensal,103.22,3,0,Sim,Mais de 50,Risco por Insatisfação
+419,49,F,45,2.4,Mensal,190.78,0,0,Não,31 a 50 anos,Perfil Estável
+420,47,F,17,5.2,Mensal,205.56,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+421,64,M,26,4.7,Mensal,133.66,0,1,Não,Mais de 50,Perfil Estável
+422,52,M,21,3.4,Trimestral,189.62,0,0,Não,Mais de 50,Perfil Estável
+423,57,M,28,4.4,Trimestral,147.17,0,0,Não,Mais de 50,Perfil Estável
+424,33,M,58,5.3,Mensal,201.25,0,0,Não,31 a 50 anos,Perfil Estável
+425,30,F,46,2.4,Anual,113.87,0,0,Não,Até 30 anos,Perfil Estável
+426,59,F,2,2.0,Anual,231.34,1,0,Sim,Mais de 50,Perfil Estável
+427,47,F,54,4.0,Anual,128.86,0,0,Não,31 a 50 anos,Perfil Estável
+428,36,F,43,4.8,Mensal,142.52,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+429,34,M,1,4.6,Mensal,89.88,0,0,Não,31 a 50 anos,Perfil Estável
+430,36,M,51,4.8,Anual,98.96,1,0,Sim,31 a 50 anos,Perfil Estável
+431,45,M,53,2.6,Trimestral,167.7,0,0,Não,31 a 50 anos,Perfil Estável
+432,43,F,36,4.9,Mensal,125.49,0,0,Não,31 a 50 anos,Perfil Estável
+433,54,M,51,0.7,Mensal,222.03,0,1,Não,Mais de 50,Perfil Estável
+434,43,F,26,3.3,Mensal,82.5,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+435,40,F,29,0.0,Anual,144.45,0,0,Não,31 a 50 anos,Perfil Estável
+436,26,M,21,1.9,Trimestral,137.35,1,0,Sim,Até 30 anos,Perfil Estável
+437,29,M,11,2.2,Mensal,83.29,0,1,Não,Até 30 anos,Perfil Estável
+438,18,M,40,2.4,Mensal,101.14,1,0,Sim,Até 30 anos,Risco por Insatisfação
+439,18,F,11,4.2,Trimestral,150.32,0,0,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+440,64,M,36,2.3,Anual,163.79,0,0,Não,Mais de 50,Perfil Estável
+441,51,F,49,2.7,Mensal,148.73,0,0,Não,Mais de 50,Perfil Estável
+442,49,M,59,1.4,Trimestral,170.26,0,0,Não,31 a 50 anos,Perfil Estável
+443,42,F,39,2.2,Anual,181.17,1,0,Sim,31 a 50 anos,Perfil Estável
+444,57,F,40,1.4,Mensal,81.69,0,1,Não,Mais de 50,Perfil Estável
+445,62,M,35,0.4,Trimestral,158.9,0,0,Não,Mais de 50,Perfil Estável
+446,18,F,54,3.6,Mensal,243.79,1,0,Sim,Até 30 anos,Risco por Insatisfação
+447,33,F,34,4.0,Trimestral,168.24,1,0,Sim,31 a 50 anos,Perfil Estável
+448,56,M,55,3.7,Trimestral,195.18,1,0,Sim,Mais de 50,Perfil Estável
+449,22,F,47,2.8,Trimestral,133.02,0,1,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+450,39,M,24,2.3,Trimestral,211.58,3,0,Sim,31 a 50 anos,Perfil Estável
+451,46,F,54,5.2,Mensal,211.4,0,0,Não,31 a 50 anos,Perfil Estável
+452,20,M,22,3.1,Anual,168.62,0,0,Não,Até 30 anos,Perfil Estável
+453,29,M,5,2.9,Trimestral,245.92,1,0,Sim,Até 30 anos,Perfil Estável
+454,43,F,56,0.2,Mensal,101.34,0,0,Não,31 a 50 anos,Perfil Estável
+455,33,F,33,2.0,Trimestral,82.88,1,0,Sim,31 a 50 anos,Perfil Estável
+456,54,F,58,2.3,Trimestral,210.93,1,1,Sim,Mais de 50,Perfil Estável
+457,39,F,36,2.4,Mensal,217.22,0,1,Não,31 a 50 anos,Perfil Estável
+458,46,F,47,3.5,Anual,100.44,0,0,Não,31 a 50 anos,Perfil Estável
+459,31,M,20,3.2,Anual,125.15,1,1,Sim,31 a 50 anos,Perfil Estável
+460,45,F,19,3.6,Mensal,82.98,0,0,Não,31 a 50 anos,Perfil Estável
+461,22,M,35,4.6,Anual,129.86,1,0,Sim,Até 30 anos,Perfil Estável
+462,64,M,52,4.9,Mensal,211.43,1,0,Sim,Mais de 50,Risco por Insatisfação
+463,47,F,43,4.3,Mensal,168.05,0,0,Não,31 a 50 anos,Perfil Estável
+464,63,M,17,5.7,Mensal,139.18,1,0,Sim,Mais de 50,Risco por Insatisfação
+465,22,M,59,0.1,Anual,143.2,1,0,Sim,Até 30 anos,Perfil Estável
+466,29,M,45,1.2,Trimestral,80.23,1,0,Sim,Até 30 anos,Perfil Estável
+467,33,M,43,0.0,Mensal,130.97,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+468,43,F,34,3.9,Mensal,189.9,0,0,Não,31 a 50 anos,Perfil Estável
+469,43,M,9,5.4,Trimestral,245.61,0,0,Não,31 a 50 anos,Perfil Estável
+470,38,F,26,1.5,Mensal,224.0,0,0,Não,31 a 50 anos,Perfil Estável
+471,56,F,2,5.6,Anual,84.01,1,0,Sim,Mais de 50,Perfil Estável
+472,53,M,53,0.4,Anual,232.76,2,0,Sim,Mais de 50,Perfil Estável
+473,50,F,9,5.6,Trimestral,213.14,0,0,Não,31 a 50 anos,Perfil Estável
+474,47,F,9,2.1,Anual,212.66,0,1,Não,31 a 50 anos,Perfil Estável
+475,54,F,40,0.6,Mensal,157.86,1,0,Sim,Mais de 50,Risco por Insatisfação
+476,40,M,17,2.9,Anual,147.66,0,0,Não,31 a 50 anos,Perfil Estável
+477,27,F,1,1.5,Trimestral,131.5,1,1,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+478,22,F,25,1.7,Trimestral,91.17,1,0,Sim,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+479,53,F,43,1.8,Mensal,118.8,1,0,Sim,Mais de 50,Risco por Insatisfação
+480,51,M,40,4.8,Anual,121.92,0,0,Não,Mais de 50,Perfil Estável
+481,48,F,42,3.2,Mensal,162.29,1,1,Sim,31 a 50 anos,Risco por Insatisfação
+482,27,M,25,1.9,Mensal,207.07,0,0,Não,Até 30 anos,Perfil Estável
+483,36,M,39,3.7,Mensal,160.55,0,0,Não,31 a 50 anos,Perfil Estável
+484,49,M,35,4.3,Trimestral,89.83,2,0,Sim,31 a 50 anos,Perfil Estável
+485,18,M,3,1.6,Trimestral,242.82,1,0,Sim,Até 30 anos,Perfil Estável
+486,22,M,50,2.5,Trimestral,240.26,0,0,Não,Até 30 anos,Perfil Estável
+487,62,M,37,0.7,Anual,213.48,0,0,Não,Mais de 50,Perfil Estável
+488,21,F,44,1.1,Mensal,248.53,0,0,Não,Até 30 anos,Perfil Estável
+489,33,M,44,4.1,Trimestral,172.56,0,1,Não,31 a 50 anos,Perfil Estável
+490,41,F,51,1.1,Mensal,243.67,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+491,33,F,30,3.2,Anual,92.85,0,0,Não,31 a 50 anos,Perfil Estável
+492,19,M,38,4.3,Anual,142.17,0,1,Não,Até 30 anos,Perfil Estável
+493,45,F,34,0.6,Trimestral,118.31,0,0,Não,31 a 50 anos,Perfil Estável
+494,49,F,12,3.4,Trimestral,113.29,1,0,Sim,31 a 50 anos,Perfil Estável
+495,44,F,19,1.5,Mensal,103.94,0,0,Não,31 a 50 anos,Perfil Estável
+496,37,F,37,5.8,Mensal,185.81,1,1,Sim,31 a 50 anos,Risco por Insatisfação
+497,41,M,44,2.9,Anual,212.82,0,1,Não,31 a 50 anos,Perfil Estável
+498,29,F,59,4.8,Mensal,178.31,0,0,Não,Até 30 anos,Perfil Estável
+499,52,M,59,3.3,Mensal,104.98,2,1,Sim,Mais de 50,Risco por Insatisfação
+500,50,F,49,0.3,Mensal,217.89,0,0,Não,31 a 50 anos,Perfil Estável
+501,50,F,17,3.8,Anual,188.11,1,1,Sim,31 a 50 anos,Perfil Estável
+502,60,M,10,5.7,Mensal,145.99,0,1,Não,Mais de 50,Perfil Estável
+503,54,F,57,3.6,Mensal,194.6,0,0,Não,Mais de 50,Perfil Estável
+504,29,F,55,4.9,Trimestral,124.18,0,0,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+505,20,F,49,5.3,Anual,138.68,0,0,Não,Até 30 anos,Perfil Estável
+506,18,M,47,1.4,Mensal,235.97,2,0,Sim,Até 30 anos,Risco por Insatisfação
+507,50,F,12,1.3,Mensal,129.39,0,0,Não,31 a 50 anos,Perfil Estável
+508,57,M,16,3.7,Mensal,159.9,0,0,Não,Mais de 50,Perfil Estável
+509,27,F,24,2.5,Mensal,231.32,0,1,Não,Até 30 anos,Perfil Estável
+510,60,M,19,5.0,Mensal,200.31,1,0,Sim,Mais de 50,Risco por Insatisfação
+511,61,M,8,5.4,Trimestral,90.57,1,0,Sim,Mais de 50,Perfil Estável
+512,46,F,31,2.1,Trimestral,105.04,0,1,Não,31 a 50 anos,Perfil Estável
+513,30,F,21,1.4,Trimestral,81.33,0,1,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+514,29,M,17,4.7,Mensal,187.26,0,0,Não,Até 30 anos,Perfil Estável
+515,48,M,23,1.6,Anual,156.1,0,1,Não,31 a 50 anos,Perfil Estável
+516,63,F,37,4.9,Mensal,102.83,1,0,Sim,Mais de 50,Risco por Insatisfação
+517,19,M,54,2.5,Anual,242.85,1,1,Sim,Até 30 anos,Perfil Estável
+518,52,F,16,4.0,Trimestral,170.04,0,0,Não,Mais de 50,Perfil Estável
+519,40,F,6,0.6,Mensal,121.12,0,0,Não,31 a 50 anos,Perfil Estável
+520,34,F,8,3.7,Trimestral,165.1,1,0,Sim,31 a 50 anos,Perfil Estável
+521,43,F,25,2.7,Mensal,195.54,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+522,25,M,18,3.5,Trimestral,92.96,1,0,Sim,Até 30 anos,Perfil Estável
+523,46,F,25,1.0,Mensal,126.7,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+524,43,M,12,4.4,Mensal,217.18,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+525,27,F,15,5.2,Anual,158.14,0,1,Não,Até 30 anos,Perfil Estável
+526,43,M,59,1.3,Mensal,172.92,0,0,Não,31 a 50 anos,Perfil Estável
+527,51,F,26,0.6,Anual,153.58,1,0,Sim,Mais de 50,Perfil Estável
+528,58,M,41,0.1,Mensal,87.46,1,0,Sim,Mais de 50,Risco por Insatisfação
+529,24,M,45,3.9,Trimestral,108.18,0,0,Não,Até 30 anos,Perfil Estável
+530,21,F,26,3.6,Trimestral,155.74,0,1,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+531,62,F,47,3.3,Trimestral,115.56,3,1,Sim,Mais de 50,Perfil Estável
+532,28,F,32,1.4,Mensal,88.5,1,0,Sim,Até 30 anos,Risco por Insatisfação
+533,46,F,10,2.3,Mensal,223.42,0,0,Não,31 a 50 anos,Perfil Estável
+534,53,M,16,3.6,Mensal,246.8,3,1,Sim,Mais de 50,Risco por Insatisfação
+535,42,F,7,3.0,Mensal,214.83,0,0,Não,31 a 50 anos,Perfil Estável
+536,38,M,17,5.9,Trimestral,225.14,0,1,Não,31 a 50 anos,Perfil Estável
+537,53,M,23,0.8,Anual,121.14,1,0,Sim,Mais de 50,Perfil Estável
+538,27,F,26,4.2,Anual,243.31,1,1,Sim,Até 30 anos,Perfil Estável
+539,54,M,21,2.4,Trimestral,113.48,2,0,Sim,Mais de 50,Perfil Estável
+540,26,M,22,2.6,Trimestral,241.74,0,0,Não,Até 30 anos,Perfil Estável
+541,41,M,58,4.3,Trimestral,249.12,0,1,Não,31 a 50 anos,Perfil Estável
+542,52,M,7,4.2,Mensal,200.99,0,0,Não,Mais de 50,Perfil Estável
+543,52,F,14,5.9,Anual,246.79,0,0,Não,Mais de 50,Perfil Estável
+544,53,F,15,0.8,Trimestral,176.82,0,0,Não,Mais de 50,Perfil Estável
+545,35,F,53,0.6,Trimestral,124.12,2,0,Sim,31 a 50 anos,Perfil Estável
+546,56,F,7,4.3,Mensal,154.29,0,0,Não,Mais de 50,Perfil Estável
+547,49,M,9,3.5,Mensal,180.91,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+548,41,M,51,1.6,Mensal,92.42,0,0,Não,31 a 50 anos,Perfil Estável
+549,40,F,48,0.5,Anual,185.8,0,0,Não,31 a 50 anos,Perfil Estável
+550,49,F,8,0.5,Trimestral,246.8,1,0,Sim,31 a 50 anos,Perfil Estável
+551,54,F,50,5.4,Mensal,112.32,1,0,Sim,Mais de 50,Risco por Insatisfação
+552,29,M,59,1.2,Anual,214.74,0,0,Não,Até 30 anos,Perfil Estável
+553,30,F,23,1.9,Mensal,234.34,0,0,Não,Até 30 anos,Perfil Estável
+554,40,F,29,1.4,Mensal,240.43,0,0,Não,31 a 50 anos,Perfil Estável
+555,42,F,18,2.1,Mensal,243.22,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+556,52,M,31,0.4,Trimestral,168.65,1,0,Sim,Mais de 50,Perfil Estável
+557,58,M,30,3.1,Anual,246.14,3,0,Sim,Mais de 50,Perfil Estável
+558,47,M,52,0.4,Mensal,208.74,0,0,Não,31 a 50 anos,Perfil Estável
+559,34,M,39,4.8,Anual,107.48,0,0,Não,31 a 50 anos,Perfil Estável
+560,37,M,35,1.4,Mensal,161.07,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+561,42,M,18,3.2,Anual,202.12,0,0,Não,31 a 50 anos,Perfil Estável
+562,39,M,59,5.3,Trimestral,122.05,3,0,Sim,31 a 50 anos,Perfil Estável
+563,30,M,42,3.9,Anual,188.9,1,0,Sim,Até 30 anos,Perfil Estável
+564,36,F,39,3.2,Mensal,193.32,0,0,Não,31 a 50 anos,Perfil Estável
+565,53,F,17,1.9,Anual,107.66,0,1,Não,Mais de 50,Perfil Estável
+566,29,M,14,2.0,Trimestral,176.06,0,0,Não,Até 30 anos,Perfil Estável
+567,58,M,31,4.0,Mensal,211.18,0,0,Não,Mais de 50,Perfil Estável
+568,36,F,24,6.0,Anual,164.81,1,0,Sim,31 a 50 anos,Perfil Estável
+569,29,M,35,4.0,Mensal,82.06,1,0,Sim,Até 30 anos,Risco por Insatisfação
+570,26,M,44,3.3,Anual,81.54,0,0,Não,Até 30 anos,Perfil Estável
+571,24,M,45,4.4,Mensal,140.69,0,0,Não,Até 30 anos,Perfil Estável
+572,45,F,34,2.8,Trimestral,237.45,0,1,Não,31 a 50 anos,Perfil Estável
+573,31,F,3,0.4,Trimestral,118.88,1,0,Sim,31 a 50 anos,Perfil Estável
+574,48,F,37,3.4,Mensal,187.84,0,1,Não,31 a 50 anos,Perfil Estável
+575,36,F,43,5.7,Mensal,117.75,0,0,Não,31 a 50 anos,Perfil Estável
+576,64,F,40,1.1,Mensal,134.68,0,0,Não,Mais de 50,Perfil Estável
+577,33,M,26,4.1,Mensal,224.17,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+578,22,F,55,1.2,Mensal,203.91,1,0,Sim,Até 30 anos,Risco por Insatisfação
+579,52,M,23,3.2,Trimestral,96.22,2,0,Sim,Mais de 50,Perfil Estável
+580,29,M,44,0.6,Mensal,152.88,2,0,Sim,Até 30 anos,Risco por Insatisfação
+581,42,F,39,2.7,Mensal,84.96,0,0,Não,31 a 50 anos,Perfil Estável
+582,38,F,15,4.5,Trimestral,161.75,0,1,Não,31 a 50 anos,Perfil Estável
+583,53,M,56,2.1,Mensal,192.61,2,1,Sim,Mais de 50,Risco por Insatisfação
+584,40,M,49,4.0,Anual,100.15,1,0,Sim,31 a 50 anos,Perfil Estável
+585,33,M,4,4.8,Anual,129.11,0,0,Não,31 a 50 anos,Perfil Estável
+586,56,F,29,5.6,Trimestral,147.63,1,0,Sim,Mais de 50,Perfil Estável
+587,62,F,22,1.4,Trimestral,236.32,0,0,Não,Mais de 50,Perfil Estável
+588,59,F,25,2.4,Anual,248.85,1,0,Sim,Mais de 50,Perfil Estável
+589,56,F,13,0.9,Mensal,87.63,0,0,Não,Mais de 50,Perfil Estável
+590,31,F,18,6.0,Mensal,209.37,1,0,Sim,31 a 50 anos,Risco por Insatisfação
+591,48,M,33,5.6,Mensal,143.19,0,0,Não,31 a 50 anos,Perfil Estável
+592,22,F,16,3.2,Trimestral,146.72,0,1,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+593,52,M,45,5.1,Mensal,208.23,1,0,Sim,Mais de 50,Risco por Insatisfação
+594,40,M,42,3.1,Trimestral,236.13,3,1,Sim,31 a 50 anos,Perfil Estável
+595,46,M,44,3.7,Anual,241.66,1,0,Sim,31 a 50 anos,Perfil Estável
+596,60,F,2,0.5,Anual,178.11,0,0,Não,Mais de 50,Perfil Estável
+597,28,F,55,4.5,Trimestral,140.71,0,0,Não,Até 30 anos,Alvo Prioritário (Risco Silencioso)
+598,35,F,35,0.8,Mensal,213.88,0,0,Não,31 a 50 anos,Perfil Estável
+599,64,M,42,5.0,Anual,122.67,1,0,Sim,Mais de 50,Perfil Estável
+600,29,M,34,4.7,Trimestral,175.89,0,0,Não,Até 30 anos,Perfil Estável
